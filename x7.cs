@@ -67,7 +67,7 @@ public class X7
         {
             I = inf; Al = al; Fr = fr; Ab = IntPtr.Zero; Ru = IntPtr.Zero; Gb = IntPtr.Zero;
             Ev = IntPtr.Zero; Xq = IntPtr.Zero; Ft = ft; Cb = 1; V = 0x50002u; Mf = IntPtr.Zero;
-            Mv = 0x801026e; Cf = IntPtr.Zero; Uq = IntPtr.Zero; Nt = IntPtr.Zero; Mfl = IntPtr.Zero;
+            Mv = 0x801026e; Cf = IntPtr.Zero; Uq = IntPtr.Zero; Nt = IntPtr.Zero; Mfl = new IntPtr(0x00000001);
             Cs = IntPtr.Zero; Ps = IntPtr.Zero; Pe = IntPtr.Zero;
         }
     }
@@ -93,7 +93,6 @@ public class X7
 
     static string pp;
     static string tg;
-    static IntPtr pfH;
 
     static void Srv()
     {
